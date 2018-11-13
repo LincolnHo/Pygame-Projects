@@ -1,0 +1,35 @@
+# Game Settings
+TITLE = "City Ninja"
+WIDTH = 300
+HEIGHT = 570
+FPS = 60
+GAME_FONT = 'Georgia'
+# PLAYER PROPERTIES
+PLAYER_ACC = 0.8
+PLAYER_FRICTION = -0.12
+PLAYER_GRAV = 0.8
+PLAYER_JUMP = 18
+
+# STARTING PLATFORM
+PLATFORM_LIST = [(0,HEIGHT-40,WIDTH,40),
+                (200, 400, 200, 15),
+                (20, 250, 100,15),
+                (125, 100, 100,15)]
+MAX_PLATFORM = 4
+
+#IMAGE FILES
+BG_IMAGE = 'bg.png'
+PLAYER_IMAGE = 'player_head.png'
+PLAYER_BAND = 'player_band.png'
+PLATFORM_IMG = 'bridge.png'
+#SOUND FILES
+BG_MUSIC = 'bg.wav'
+# Colours
+BLACK = (0,0,0)
+WHITE = (255,255,255)
+RED = (255,0,0)
+GREEN = (0,255,0)
+BLUE = (0,0,255)
+YELLOW = (255,255,0)
+CYAN = (0,255,255)
+MAGENTA = (255,0,255)

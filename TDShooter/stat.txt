@@ -1,0 +1,6 @@
+name,fD,mD,clipSize,fC,rC,mC
+flashlight,0,0,0,0,0,0
+knife,0,20,0,0,0,28
+handgun,40,10,12,10,28,28
+rifle,60,0,40,3,28,0
+shotgun,80,0,8,20,28,0
